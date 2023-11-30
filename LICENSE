@@ -1,0 +1,34 @@
+API-REST/
+│
+│
+├── apps/
+│   │
+│   ├── app1/
+│   │   │
+│   │   ├── migrations/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── tests.py
+│   │   └── views.py
+│   │
+│   └── app2/
+│
+│
+├── project/
+│   │
+│   ├── settings/
+│   │   │
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── local.py
+│   │   └── production.py
+│   │
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+│
+└── manage.py
